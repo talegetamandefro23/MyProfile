@@ -3,41 +3,41 @@ import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
-const TAB_DATA = [
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>ReactJS</li>
-        <li>NextJS</li>
-        <li>ASP.NET</li>
-        <li>JavaScript</li>
-        <li>Node.js</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Information Technology Graduate</li>
-        <li>Haramaya University </li>
-      </ul>
-    ),
-  },
-  // {
-  //   title: "Certifications",
-  //   id: "certifications",
-  //   content: (
-  //     <ul className="list-disc pl-2">
-  //       <li>AWS Cloud Practitioner</li>
-  //       <li>Google Professional Cloud Developer</li>
-  //     </ul>
-  //   ),
-  // },
-];
+// const TAB_DATA = [
+//   {
+//     title: "Skills",
+//     id: "skills",
+//     content: (
+//       <ul className="list-disc pl-2">
+//         <li>ReactJS</li>
+//         <li>NextJS</li>
+//         <li>ASP.NET</li>
+//         <li>JavaScript</li>
+//         <li>Node.js</li>
+//       </ul>
+//     ),
+//   },
+//   {
+//     title: "Education",
+//     id: "education",
+//     content: (
+//       <ul className="list-disc pl-2">
+//         <li>Information Technology Graduate</li>
+//         <li>Haramaya University </li>
+//       </ul>
+//     ),
+//   },
+//   // {
+//   //   title: "Certifications",
+//   //   id: "certifications",
+//   //   content: (
+//   //     <ul className="list-disc pl-2">
+//   //       <li>AWS Cloud Practitioner</li>
+//   //       <li>Google Professional Cloud Developer</li>
+//   //     </ul>
+//   //   ),
+//   // },
+// ];
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
@@ -99,19 +99,11 @@ const AboutSection = () => {
                   ✅ **Next.js**: Crafting dynamic and responsive web
                   applications with Next.js.
                 </li>
-                <li>✅ **JavaScript**: Expert in JavaScript.</li>
+                <li>✅ **JavaScript**: Powering dynamic and interactive web applications.</li>
                 <li>
                   ✅ **TypeScript**: Harnessing the power of static typing for
                   robust codebases.
                 </li>
-                {/* <li>
-                  ✅ **Redux** and ** Redux-toolkit**: Mastering state
-                  management for complex apps.
-                </li>
-                <li>
-                  ✅ **Redux Form & Redux Thunk**: Seamless form handling and
-                  asynchronous operations.
-                </li> */}
                 <li>
                   ✅**CSS & Sass**: Creating stunning and stylish user
                   interfaces.
@@ -127,20 +119,19 @@ const AboutSection = () => {
                   ✅ **JSX**: Transforming concepts into interactive components.
                 </li>
                 <li>
-                  ✅ **SCSS**: Elevating the aesthetics of your applications.
-                </li>
-                <li>
                   ✅ **Node.js**: Building scalable server-side solutions.
                 </li>
-                {/* <li>
+                 <li>
                   ✅ **PostgreSQL**: Building scalable Database solutions.
                 </li>
+                {/*
                 <li>✅**Express.js**: Crafting fast and efficient APIs.</li> */}
                 <li>
                   ✅ **Axios**: Reliable HTTP requests for seamless data
                   retrieval.
                 </li>
-                {/* <li>✅ **Laravel and PHP**: Building scalable APIs.</li> */}
+                <li>✅ **ABAP**: Developing robust enterprise applications for SAP systems.</li>
+                <li>✅ **RFC**: Enabling seamless communication between SAP and external systems.</li>
               </ul>
             </div>
             <div>
