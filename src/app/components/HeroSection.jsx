@@ -39,7 +39,7 @@ const HeroSection = () => {
            system integration and performance optimization. I expertise in ABAP, React, Next.js, C#, .NET...,
             delivering scalable and efficient solutions to enhance business processes and user experiences. 
           Committed to continuous learning and innovation, I thrive on building impactful software that makes a difference. 
-          Let’s create, innovate, and drive progress together!"
+          Let&quot;s create, innovate, and drive progress together!
           </p>
           <div>
             <Link
