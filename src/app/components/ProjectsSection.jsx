@@ -40,7 +40,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "SAS ABAP Projects",
+    title: "SAP ABAP Projects",
     description:
       "Experienced in developing and customizing SAP solutions, including ABAP report programs, module pool (dialog) programs, Smart Forms, and RFC integrations for seamless data exchange. Skilled in enhancements (user exits, BAdIs), data migration (LSMW, BDC), and workflow configuration. Proficient in integrating SAP with external systems, optimizing processes, and delivering tailored solutions for modules like SD, MM, and FI. Strong expertise in ALV reports, form design, and performance optimization, ensuring efficient and scalable SAP implementations.",
     image: "/images/projects/SAP_project.png",
