@@ -74,13 +74,12 @@ const EmailSection = () => {
             </button>
           </Link>
 
-          <Link href="tel:+251921175520">
+          <Link href="tel:+251920223703">
             <button className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-cyan-500 to-blue-500 hover:bg-slate-200 text-white">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Call
               </span>
             </button>
-            {/* <p>+251920223703</p> */}
           </Link>
         </h3>
       </div>
