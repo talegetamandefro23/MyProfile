@@ -35,8 +35,11 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Skilled and experienced software developer with expertise in both
-            front-end and back-end development.
+           A passionate and results-driven Software Developer at Ethiopian Airlines with over 2.6 years of experience in system development,
+           system integration and performance optimization. I expertise in ABAP, React, Next.js, C#, .NET...,
+            delivering scalable and efficient solutions to enhance business processes and user experiences. 
+          Committed to continuous learning and innovation, I thrive on building impactful software that makes a difference. 
+          Let’s create, innovate, and drive progress together!"
           </p>
           <div>
             <Link
@@ -63,7 +66,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/TM.png"
+              src="/images/Talegeta.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}

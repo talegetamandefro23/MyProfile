@@ -74,12 +74,12 @@ const AboutSection = () => {
             </li>
             <li>✔️ A 100% Guarantee of absolute satisfaction</li>
           </ul>
-          <p className="mb-6">
+          {/* <p className="mb-6">
             ⚒ Ready to elevate your online presence? Hire me for expert
             development of your online store or website, coupled with ongoing
             maintenance. I take immense pride in my craft and always honor the
             time and dedication invested in my work!
-          </p>
+          </p> */}
         </div>
         <section className="shadow-md rounded-lg p-6 mt-10">
           <h2 className="text-3xl font-semibold mb-4 text-center py-10">
@@ -88,7 +88,7 @@ const AboutSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
               <h3 className="text-xl font-bold mb-2">
-                Frontend &amp; Full-Stack
+                {/* Frontend &amp; Full-Stack */}
               </h3>
               <ul className="list-inside flex flex-col gap-2">
                 <li>
@@ -104,14 +104,14 @@ const AboutSection = () => {
                   ✅ **TypeScript**: Harnessing the power of static typing for
                   robust codebases.
                 </li>
-                <li>
+                {/* <li>
                   ✅ **Redux** and ** Redux-toolkit**: Mastering state
                   management for complex apps.
                 </li>
                 <li>
                   ✅ **Redux Form & Redux Thunk**: Seamless form handling and
                   asynchronous operations.
-                </li>
+                </li> */}
                 <li>
                   ✅**CSS & Sass**: Creating stunning and stylish user
                   interfaces.
@@ -132,15 +132,15 @@ const AboutSection = () => {
                 <li>
                   ✅ **Node.js**: Building scalable server-side solutions.
                 </li>
-                <li>
+                {/* <li>
                   ✅ **PostgreSQL**: Building scalable Database solutions.
                 </li>
-                <li>✅**Express.js**: Crafting fast and efficient APIs.</li>
+                <li>✅**Express.js**: Crafting fast and efficient APIs.</li> */}
                 <li>
                   ✅ **Axios**: Reliable HTTP requests for seamless data
                   retrieval.
                 </li>
-                <li>✅ **Laravel and PHP**: Building scalable APIs.</li>
+                {/* <li>✅ **Laravel and PHP**: Building scalable APIs.</li> */}
               </ul>
             </div>
             <div>
@@ -148,10 +148,10 @@ const AboutSection = () => {
                 Component Library Mastery
               </h3>
               <ul className="list-inside flex flex-col gap-2">
-                <li>
+                {/* <li>
                   ✅ **Chakra UI**: Elevating aesthetics with this modern UI
                   framework.
-                </li>
+                </li> */}
                 <li>
                   ✅ **Material UI**: Bringing Google&apos;s design philosophy
                   to life.
@@ -167,13 +167,13 @@ const AboutSection = () => {
                 <li>
                   ✅ **Bootstrap**: The classic framework for sleek design.
                 </li>
-                <li>
+                {/* <li>
                   ✅ **Semantic UI**: Creating intuitive and responsive
                   interfaces.
-                </li>
+                </li> */}
               </ul>
             </div>
-            <div>
+            {/* <div>
               <p className="text-xl font-bold py-3">
                 3<sup>rd</sup> Party Library Wizardry
               </p>
@@ -188,7 +188,7 @@ const AboutSection = () => {
                   ✅ **RxJS**: Managing asynchronous data flows efficiently.
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </section>
         <section className="shadow-md rounded-lg p-6 mt-10">
@@ -203,7 +203,7 @@ const AboutSection = () => {
             </li>
             <li>✅ **Microsoft Azure **: Deployement.</li>
           </ul>
-          <h2 className="text-3xl font-semibold mb-4 text-center">
+          {/* <h2 className="text-3xl font-semibold mb-4 text-center">
             🏅 Other Essential Tech Stack for MERN 🏅
           </h2>
           <ul className="flex flex-col gap-2 list-inside py-6 justify-start">
@@ -218,15 +218,15 @@ const AboutSection = () => {
             <li>➳ PostgreSQL</li>
             <li>➳ SaaS applications</li>
             <li>➳ NFT websites</li>
-          </ul>
+          </ul> */}
         </section>
         <section className="shadow-md rounded-lg p-6 mt-10">
           <h2 className="text-3xl font-semibold mb-4 text-center">
             🎓 Education 🎓
           </h2>
           <ul className="flex flex-col gap-2 list-inside mb-6  py-6 justify-start">
-            <li>🎓 Bachlor of Science (BSc) in Computer Science</li>
-            <li>🎓 University of Gondar</li>
+            <li>🎓 Bachlor of Science (BSc) in Information Technology </li>
+            <li>🎓 Haramaya University</li>
           </ul>
         </section>
         <footer className="text-center mt-10">

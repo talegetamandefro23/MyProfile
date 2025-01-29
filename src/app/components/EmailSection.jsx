@@ -53,11 +53,11 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/abrahamjo25" target="_blank">
+          <Link href="https://github.com/talegetamandefro23" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/abraham-yohannes-a1257a262/"
+            href="https://www.linkedin.com/in/talegeta-mandefro-6b4bba346/"
             target="_blank"
           >
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
@@ -66,7 +66,7 @@ const EmailSection = () => {
       </div>
       <div className="">
         <h3>
-          <Link href={`mailto:abirham.johannes@gmail.com`}>
+          <Link href={`mailto:talegetamandefro23@gmail.com`}>
             <button className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-cyan-500 to-blue-500 hover:bg-slate-200 text-white">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Email
@@ -80,6 +80,7 @@ const EmailSection = () => {
                 Call
               </span>
             </button>
+            {/* <p>+251920223703</p> */}
           </Link>
         </h3>
       </div>
